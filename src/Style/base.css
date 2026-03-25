@@ -2,6 +2,7 @@
 .app {
   display: flex;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 
@@ -68,6 +69,48 @@ html {
   justify-content: center;
 
   transition: opacity 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 16px;
+  }
+
+  .main {
+    flex: 1;
+  }
+
+  .top-nav {
+    left: 12px;
+    right: 12px;
+    top: 10px;
+    z-index: 60;
+  }
+
+  .top-nav__bar {
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .top-nav__bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .section {
+    padding: 88px 18px 28px;
+    min-height: 100svh;
+  }
 }
 
 /* Big section (projects) */

@@ -3,4 +3,5 @@ import "./Style/base.css";
 
 export default function App() {
   return <Dashboard />;
+  
 }
