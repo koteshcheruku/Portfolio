@@ -139,7 +139,7 @@ html {
 /* Soft-edged top navbar */
 .top-nav {
   position: fixed;
-  top: 16px;
+  top: 12px;
   left: 270px;
   right: 20px;
   z-index: 50;
@@ -155,18 +155,19 @@ html {
   border: 1px solid #e5e7eb;
   border-radius: 9999px;
   box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
-  padding: 8px;
+  padding: 6px;
   display: flex;
-  gap: 8px;
+  gap: 6px;
   justify-content: flex-start;
   width: max-content;
+  max-width: 100%;
 }
 
 .nav-tab {
   border: 1px solid transparent;
   border-radius: 9999px;
-  padding: 8px 12px;
-  font-size: 14px;
+  padding: 6px 10px;
+  font-size: 13px;
   color: #374151;
   background: transparent;
   cursor: pointer;
@@ -212,4 +213,28 @@ html {
   color: #111827;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* Mobile overrides (must come last to win over default rules) */
+@media (max-width: 768px) {
+  .top-nav {
+    left: 12px;
+    right: 12px;
+    top: 10px;
+  }
+
+  .sidebar {
+    margin-top: 54px; /* keep it visible under the fixed navbar */
+  }
+
+  .top-nav__bar {
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .top-nav__bar::-webkit-scrollbar {
+    display: none;
+  }
 }
