@@ -1,21 +1,31 @@
-<<<<<<< HEAD
-# React + Vite
+# 💼 Portfolio – Koteshwar Cheruku
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio showcasing my work as a Full Stack Developer. It highlights my projects, technical skills, and experience in building scalable web applications and real-time systems.
 
-Currently, two official plugins are available:
+## 🚀 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I specialize in developing secure and efficient applications using modern technologies like React.js and Spring Boot. My focus is on clean architecture, system design, and performance-driven development.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js
+* **Backend:** Java, Spring Boot, Spring Security
+* **Database:** MySQL (JPA/Hibernate)
+* **Other:** WebSockets, JWT Authentication, REST APIs
 
-## Expanding the ESLint configuration
+## 📌 Featured Work
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Portfolio
-my portfolio
->>>>>>> 66a7b412073744cdab87d0835bc2e0d20788c706
+* **CRM System:** Enterprise-level application with role-based access control and real-time communication
+* **Face Recognition:** Lightweight ML model using Gaussian Naive Bayes
+* **Poem Generator:** RNN-based text generation system
+* **Attendance Portal:** Employee tracking system with secure backend
+
+## 📫 Contact
+
+* Email: [koteshcheruku000@gmail.com](mailto:koteshcheruku000@gmail.com)
+* GitHub: https://github.com/koteshcheruku
+* LinkedIn: https://www.linkedin.com/in/kotesh-cheruku-149836326/
+
+---
+
+⭐ Feel free to explore the projects and connect with me!
