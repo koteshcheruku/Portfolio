@@ -24,6 +24,10 @@ export default function Sidebar() {
           <p><b>GitHub:</b> <a href="https://github.com/koteshcheruku" target="_blank" rel="noreferrer">github.com/koteshcheruku</a></p>
         </div>
       </div>
+
+      <div className="sidebar__footer">
+        <p>© 2026 Koteshwar Cheruku</p>
+      </div>
     </aside>
   );
 }

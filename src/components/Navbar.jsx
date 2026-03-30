@@ -1,16 +1,18 @@
-export default function Navbar({ pages, activeId, onNavigate }) {
+import { NavLink } from "react-router-dom";
+
+export default function Navbar({ pages }) {
   return (
     <div className="top-nav">
       <div className="top-nav__bar" role="navigation" aria-label="Dashboard pages">
         {pages.map((p) => (
-          <button
+          <NavLink
             key={p.id}
-            type="button"
-            onClick={() => onNavigate?.(p.id)}
-            className={`nav-tab ${activeId === p.id ? "nav-tab--active" : ""}`}
+            to={p.path}
+            end={p.path === "/"}
+            className={({ isActive }) => `nav-tab ${isActive ? "nav-tab--active" : ""}`}
           >
             {p.label}
-          </button>
+          </NavLink>
         ))}
       </div>
     </div>
